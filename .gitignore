@@ -1,0 +1,21 @@
+# Node
+node_modules/
+dist/
+
+# Python (uv)
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 取得した元データ。取得スクリプトで再現する（コミットしない）
+pipeline/raw/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log
+
+# 作業用の方針メモ（手元だけに置く）
+docs/PLAN.md

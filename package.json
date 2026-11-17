@@ -1,0 +1,11 @@
+{
+  "name": "30daymapchallenge-2026",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc -p .",
+    "export": "node scripts/export.mjs"
+  }
+}
